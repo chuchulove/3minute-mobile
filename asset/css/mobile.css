@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+body{margin:0;padding:0;font-size:15px;color:#000;background:#fff;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;letter-spacing:-1px}
+h1,h2,h3,h4,h5,h6,div,p,ul,ol,li,dl,dt,dd,input,textarea,pre,code,form,fieldset,blockquote,th,td,select,button,code{margin:0;padding:0}
+ul,ol,li{list-style:none}
+img,fieldset{border:0 none}
+em{font-style:normal}
+input:focus{outline:0 none !important}
+input[type="radio"],
+input[type="checkbox"]{width:13px;height:13px;vertical-align:middle;box-sizing:border-box}
+option{padding-right:6px}
+button,label{cursor:pointer}
+button img{vertical-align:top}
+input,select{margin:0;padding:0}
+button[disabled=disabled]{cursor:pointer;outline:none}
+legend{visibility:hidden;overflow:hidden;clear:both;position:absolute;top:0;left:0;width:0;height:0;margin:0;padding:0;font-size:0;line-height:0}
+caption{visibility:hidden;overflow:hidden;width:0;height:0;margin:0;padding:0;font-size:0;line-height:0}
+table,
+tr,
+td{margin:0;padding:0;border-collapse:collapse;border-spacing:0}
+a,a:link,a:active,a:hover,a:visited{text-decoration:none}
+a:focus{outline:thin dotted}
+a:active,
+a:hover{outline:0}
+
+/* html5 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary{display:block}
+
+audio,
+canvas,
+video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+abbr[title]{border-bottom:1px dotted}
+b,
+strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark {background:#ff0;color:#000}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,
+sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+button,
+input,
+select,
+textarea{font-family:inherit;font-size:100%}
+button,
+input{line-height:normal}
+button,
+select{text-transform:none}
+button,
+html input[type="button"], 
+input[type="reset"],
+input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],
+html input[disabled]{cursor:default}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,
+input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto}
+
+/* CSS Common */
+.hidden{display:none !important}
+.visible{visibility:hidden}
+.clear{*zoom:1}
+.clear:after{display:block;clear:both;content:''}
+.ir{visibility:hidden;overflow:hidden;position:absolute;width:0;height:0;margin:0;padding:0;font-size:0;line-height:0}
+
+#wrap{min-width:320px}
+#wrap img{max-width:100%;vertical-align:top}
+.main{width:320px;margin:0 auto}
+
+nav{background:#2a2a28}
+nav .gnb{width:320px;margin:0 auto}
+nav .gnb{background:url(/asset/img/bg_nav_bar.gif) repeat-y 100% 0}
+nav .gnb li{position:relative;float:left;width:75px;background:url(/asset/img/bg_nav_bar.gif) repeat-y 0 0}
+nav .gnb li a{display:block;height:57.5px}
+nav .gnb li:first-child{width:47px}
+nav .gnb li:last-child{width:48px}
+nav .gnb .btn-g1{background:url(/asset/img/btn_gnb_m1.png) no-repeat 50% 50%;background-size:42px 28.5px}
+nav .gnb .btn-g2{background:url(/asset/img/btn_gnb_m2.png) no-repeat 50% 50%;background-size:43.5px 30px}
+nav .gnb .btn-g3{background:url(/asset/img/btn_gnb_m3.png) no-repeat 50% 50%;background-size:43.5px 29px}
+nav .gnb .btn-g4{background:url(/asset/img/btn_gnb_m4.png) no-repeat 50% 50%;background-size:43.5px 28px}
+nav .gnb .btn-g5{background:url(/asset/img/btn_gnb_m5.png) no-repeat 50% 50%;background-size:31px 28.5px}
+nav .gnb .on a:after{position:absolute;left:-3px;top:0;display:block;width:80.5px;height:60px;content:''}
+nav .gnb .on .btn-g1:after{background:url(/asset/img/btn_gnb_m1_on.png) no-repeat 0 0;background-size:54px 61px}
+nav .gnb .on .btn-g2:after{background:url(/asset/img/btn_gnb_m2_on.png) no-repeat 0 0;background-size:81px 61px}
+nav .gnb .on .btn-g3:after{background:url(/asset/img/btn_gnb_m3_on.png) no-repeat 0 0}
+nav .gnb .on .btn-g4:after{background:url(/asset/img/btn_gnb_m4_on.png) no-repeat 0 0}
+nav .gnb .on .btn-g5:after{background:url(/asset/img/btn_gnb_m5_on.png) no-repeat 0 0}
+
+footer{font-size:11px;color:#d2d2d2;background:#2a2a28}
+footer .main{height:57px;padding-top:17px;background:url(/asset/img/img_otg_logo.jpg) no-repeat 7px 50%;background-size:35px 35px}
+footer p{margin-left:51px;line-height:1.4}
+footer .privacy,
+footer .contract{font-weight:bold}
+footer .contract a{color:#d2d2d2;letter-spacing:0}
+footer .copy{letter-spacing:0}
+
+.section-main{text-align:center}
+.section-main .conts{height:336.5px;background:url(/asset/img/bg_main.jpg) no-repeat 50% 0;background-size:568px 336.5px}
+.section-main h1{padding-top:21px}
+.section-main h1 img{width:296px}
+.section-main .evt-dec{margin-top:11.5px}
+.section-main .evt-dec img{width:315px}
+.section-main .evt-sp{background:url(/asset/img/bg_sp.jpg) no-repeat 50% 0;background-size:568px 126px}
+.section-main .evt-sp img{width:320px;height:126px}
+.section-main .evt-gift img,
+.section-main .m-cook img{width:320px}
+.section-main .evt-gift{background:url(/asset/img/bg_evt_gift.jpg) no-repeat 50% 0;background-size:568px 258px}
+.section-main .m-cook{background:url(/asset/img/bg_3m_cook.jpg) no-repeat 50% 0;background-size:568px 201px}
+
+/* quiz */
+.section-quiz{background:url(/asset/img/bg_quiz.jpg) no-repeat 50% 0;background-size:568px 1214px}
+.section-quiz h1{padding-top:18px;text-align:center}
+.section-quiz h1 img{width:290px;height:59px}
+.section-quiz .evt-dec{margin-top:5px;text-align:center}
+.section-quiz .evt-dec img{width:285px;height:25px}
+
+.section-quiz .cmnt-area{margin-top:22px}
+.section-quiz .cmnt-area .evt-box-top{padding-bottom:6px}
+.section-quiz .cmnt-area .evt-box-top h2{padding:6px 0 0 47px}
+.section-quiz .cmnt-area .evt-box-top h2 img{width:169px;height:28px}
+.section-quiz .cmnt-area .evt-box-top .share{margin-top:7px;padding-left:84px}
+.section-quiz .cmnt-area .evt-box-top .share a{margin-right:4px}
+.section-quiz .cmnt-area .evt-box-top .share img{width:42px;height:42px}
+
+.section-quiz .cmnt-area .media{width:283px;height:148px;margin-left:3px;padding:14px 0 0 30px;background:url(/asset/img/bg_media.png) no-repeat 0 0;background-size:cover}
+
+.section-quiz .cmnt{padding-top:7px;background:url(/asset/img/bg_cmnt.png) no-repeat 10px 100%;background-size:303px 222px}
+.section-quiz .cmnt .ifield{position:relative;margin:0 20px 0 18px}
+.section-quiz .cmnt .ifield .sns-log{display:inline-block;margin-right:5px;vertical-align:middle}
+.section-quiz .cmnt .ifield .sns-log img{width:35px;height:35px}
+.section-quiz .cmnt .ifield .sns-log a{margin-left:3px}
+.section-quiz .cmnt .ifield .sns-log a:first-child{margin-left:0}
+.section-quiz .cmnt .ifield input{height:31px;padding:0 5px;border:border:1px solid #dacc00;font-size:12px;color:#999;line-height:31px;vertical-align:middle}
+.section-quiz .cmnt .ifield .ifield-top input{width:122px}
+.section-quiz .cmnt .ifield .ifield-bot{margin-top:3px}
+.section-quiz .cmnt .ifield .ifield-bot input{width:200px} 
+.section-quiz .cmnt .ifield .btn{position:absolute;right:0;top:0}
+.section-quiz .cmnt .ifield .btn .btn-submit{width:58px;height:71px;border:0}
+
+.section-quiz .cmnt{height:203px}
+.section-quiz .cmnt .cmnt-lst{margin:8px 11px 0 12px}
+.section-quiz .cmnt .cmnt-lst li{height:28px;padding-right:5px;border-bottom:1px dashed #999000}
+.section-quiz .cmnt .cmnt-lst li:last-child{border-bottom:0}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box{overflow:hidden}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box span{float:left;padding-top:2px;font-size:12px;line-height:28px}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box .name{width:45px;padding-left:12px;font-weight:bold}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box .c-txt{overflow:hidden;width:150px}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box .date{font-size:11px;color:#5e5e5e;letter-spacing:0}
+.section-quiz .cmnt .cmnt-lst .cmnt-lst-box .del{float:right;width:19px;height:19px;margin-top:3px;cursor:pointer}
+
+.section-quiz .cmnt .page{margin-top:5px;text-align:center}
+.section-quiz .page a{display:inline-block;width:15px;height:15px;margin-left:10px;font-size:13px;color:#000;font-weight:bold;vertical-align:middle;text-align:center;line-height:15px}
+.section-quiz .page a:first-child{margin-left:0}
+.section-quiz .page .btn-prev img,
+.section-quiz .page .btn-next img{width:8px;height:11px}
+.section-quiz .page .btn-prev,
+.section-quiz .page .btn-next{height:13px;padding-top:2px;line-height:normal}
+
+.section-quiz .event-area{background:url(/asset/img/bg_evt_quiz.jpg) no-repeat 50% 0;background-size:568px 376px}
+.section-quiz .event-area .evt-box{position:relative;height:170px}
+.section-quiz .event-area .evt-box .q{padding:17px 0 0 0;text-align:center}
+.section-quiz .event-area .evt-box .q img{width:289px;height:54px}
+.section-quiz .event-area .evt-box ul{margin-top:11px;padding-left:28px}
+.section-quiz .event-area .evt-box li{position:relative;height:25px}
+.section-quiz .event-area .evt-box li input[type="radio"]{visibility:hidden}
+.section-quiz .event-area .evt-box label{position:absolute;left:0;top:0;height:25px}
+.section-quiz .event-area .evt-box .n1{width:126px;background:url(/asset/img/img_quiz_a1.png) no-repeat 0 0;background-size:126px 25px}
+.section-quiz .event-area .evt-box .n1.on{background:url(/asset/img/img_quiz_a1_on.png) no-repeat 0 0;background-size:126px 25px}
+.section-quiz .event-area .evt-box .n2{width:145px;background:url(/asset/img/img_quiz_a2.png) no-repeat 0 0;background-size:125px 25px}
+.section-quiz .event-area .evt-box .n2.on{background:url(/asset/img/img_quiz_a2_on.png) no-repeat 0 0;background-size:145px 25px}
+.section-quiz .event-area .evt-box .n3{width:156px;background:url(/asset/img/img_quiz_a3.png) no-repeat 0 0;background-size:156px 25px}
+.section-quiz .event-area .evt-box .n3.on{background:url(/asset/img/img_quiz_a3_on.png) no-repeat 0 0;background-size:156px 25px}
+.section-quiz .event-area .evt-box .submit{position:absolute;right:50px;top:81px}
+.section-quiz .event-area .evt-box .submit .btn-ent{width:82px;height:84px;border:0;background:transparent}
+
+.section-quiz .evt-gift{height:192px;padding-top:13px;text-align:center}
+.section-quiz .evt-gift img{width:264px;height:179px}
+.section-quiz .m-cook{background:url(/asset/img/bg_3m_cook2.jpg) no-repeat 50% 0;text-align:center;background-size:568px 253px}
+.section-quiz .m-cook img{width:320px;height:253px}
